@@ -1,0 +1,20 @@
+{
+    "name": "zmhfly/pexample",
+    "description": "php初始化应用模板",
+    "type": "project",
+    "minimum-stability":"dev",
+    "authors": [
+        {
+            "name": "zong",
+            "email": "zmhfly8@foxmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "App\\" : "app/"
+        }
+    },
+    "require": {
+        "zmhfly/framework":"dev-master"
+    }
+}
